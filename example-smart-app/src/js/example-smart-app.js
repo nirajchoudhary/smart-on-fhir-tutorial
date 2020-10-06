@@ -117,7 +117,7 @@
       } else {
         practitioner = "Not Alloted"
       }
-
+      console.log(i.start, i.end)
       var table = document.getElementById("appointment");
       var row = table.insertRow(rowCount);
       var cell1 = row.insertCell(0);
@@ -128,8 +128,8 @@
       cell1.innerHTML = i.id;
       cell2.innerHTML = practitioner
       cell3.innerHTML = i.status;
-      cell4.innerHTML = i.start == "undefined" ? "" : i.start;
-      cell5.innerHTML = i.end  == "undefined" ? "" : i.end;
+      cell4.innerHTML = i.start == undefined ? "" : i.start;
+      cell5.innerHTML = i.end  == undefined ? "" : i.end;
       rowCount += 1;
     });
   }
