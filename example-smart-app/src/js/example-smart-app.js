@@ -128,8 +128,8 @@
       cell1.innerHTML = i.id;
       cell2.innerHTML = practitioner
       cell3.innerHTML = i.status;
-      cell4.innerHTML = i.start;
-      cell5.innerHTML = i.end;
+      cell4.innerHTML = i.start || "";
+      cell5.innerHTML = i.end || "";
       rowCount += 1;
     });
   }
