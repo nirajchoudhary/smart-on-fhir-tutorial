@@ -117,7 +117,7 @@
       } else {
         practitioner = "Not Alloted"
       }
-      console.log(i.start, i.end)
+      
       var table = document.getElementById("appointment");
       var row = table.insertRow(rowCount);
       var cell1 = row.insertCell(0);
