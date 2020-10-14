@@ -12,7 +12,7 @@
         var patient = smart.patient;
         var pt = patient.read();
         var app = smart.patient.api.fetchAll({
-                    type: 'Appointment',
+                    type: 'Observation',
                     
                   });
         
